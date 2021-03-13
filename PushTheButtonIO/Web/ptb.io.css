@@ -1,0 +1,71 @@
+html{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    font-family: 'Courier New', monospace;
+}
+
+body{
+    width: 80%;
+    padding-top: 2%;
+    margin: auto;
+}
+#indexTop{
+    width: 100%;
+    height: 75px;
+    background-color: salmon;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px dotted orange;
+}
+
+#indexQuestionDiv{
+    width: 100%;
+    height: 60vh;
+    margin-top: 1%;
+    background-color: Linen;
+    border-radius: 10px;
+    border: 5px dotted Teal;
+}
+
+#indexQuestionTitle{
+    width: 75%;
+    height: 15%;
+    margin: 0 auto;
+    background-color: rgba(234, 168, 202, 70%);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 10vh;
+}
+
+#indexQuestion{
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    background-color: rgba(214, 234, 248, 70%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+#indexRespond{
+    width: 100%;
+    height: 20vh;
+    margin-top: 1%;
+    background-color: PowderBlue;
+    border-radius: 10px;
+    border: 5px dotted CornflowerBlue;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#red, #green, #blue, #yellow, #white{
+    width: 15%;
+    height: 80%;
+    padding-left: 1%;
+    margin: auto;
+    background-color: rgba(241, 245, 47, 0.795);
+    border-radius: 10px;
+    border: 3px solid Tomato;
+
+}
